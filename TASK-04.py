@@ -3,7 +3,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Load the dataset
-file_path = "C:\\Users\\PC\\Downloads\\twitter_validation.csv"  # Update with the actual path
+file_path = "C:\\Users\\PC\\Downloads\\twitter_validation.csv"  
 df = pd.read_csv(file_path)
 
 df.columns = ["ID", "Entity", "Sentiment", "Tweet"]
